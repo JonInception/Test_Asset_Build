@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1083378141, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: StateMachin_SC0150_Leaf
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"pan":{"x":70.31951,"y":-76.24049},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"pan":{"x":-36.82779,"y":-1.204506},"zoom":1.0,"elements":[],"title":"Start","summary":null,"$version":"A"}},"position":{"x":-89.0,"y":-178.0},"width":170.0,"isStart":true,"guid":"4cb4d91d-53de-45f0-ac69-e9dcad3a4e93","$version":"A","$type":"Bolt.FlowState","$id":"3"},{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-205.0,"y":-215.0},"guid":"59167b99-3774-4e6d-9052-31df517c0621","$version":"A","$type":"Bolt.OnEnterState"},{"defaultValues":{},"position":{"x":-161.0,"y":-38.0},"guid":"2191022e-5080-45f9-be7c-9c09ddab63c5","$version":"A","$type":"Bolt.Update"},{"defaultValues":{},"position":{"x":-205.0,"y":145.0},"guid":"ab5626c5-4207-4716-abdd-83794fb9a9b9","$version":"A","$type":"Bolt.OnExitState"}],"title":null,"summary":null,"$version":"A"}},"position":{"x":-87.0,"y":74.0},"width":170.0,"isStart":false,"guid":"8ad47727-4333-4610-8831-6fec5d5441a9","$version":"A","$type":"Bolt.FlowState","$id":"13"},{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"pan":{"x":-99.0,"y":35.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":100.0,"y":-50.0},"guid":"a1693642-9bb2-41f6-a127-eaec16b9aa9c","$version":"A","$type":"Bolt.TriggerStateTransition"}],"title":null,"summary":null,"$version":"A"}},"source":{"$ref":"3"},"destination":{"$ref":"13"},"guid":"34c96ead-4d31-490d-9ba5-5efbfc9815c9","$version":"A","$type":"Bolt.FlowStateTransition"}],"title":null,"summary":null,"$version":"A"}}'
+    _objectReferences: []

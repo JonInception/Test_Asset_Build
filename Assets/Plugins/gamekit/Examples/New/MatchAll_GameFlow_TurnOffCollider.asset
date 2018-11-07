@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: MatchAll_GameFlow_TurnOffCollider
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"match
+      all game flow","summary":null,"pan":{"x":923.8625,"y":346.897},"zoom":1.0,"elements":[{"member":{"name":"Trigger_Success","parameterTypes":null,"targetType":"GameKit.Modules.MatchVariants.MatchAllLogicModule","targetTypeName":"GameKit.Modules.MatchVariants.MatchAllLogicModule","$version":"A"},"defaultValues":{},"position":{"x":432.0,"y":334.0},"guid":"dd8aba5b-b877-499a-8828-e2d284617eec","$version":"A","$type":"Bolt.GetMember","$id":"9"},{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"","$type":"System.String"}},"position":{"x":454.0,"y":207.0},"guid":"1b25efb9-fac2-431b-ae20-82981c125f9f","$version":"A","$type":"Bolt.CustomEvent","$id":"12"},{"chainable":false,"member":{"name":"enabled","parameterTypes":null,"targetType":"UnityEngine.Collider","targetTypeName":"UnityEngine.Collider","$version":"A"},"defaultValues":{"target":null,"input":{"$content":false,"$type":"System.Boolean"}},"position":{"x":789.0,"y":210.0},"guid":"bf111cf3-4acd-469c-b545-a51ed3d57ef5","$version":"A","$type":"Bolt.SetMember","$id":"14"},{"member":{"name":"Collider","parameterTypes":null,"targetType":"GameKit.Modules.MatchVariants.Elements.MatchElement","targetTypeName":"GameKit.Modules.MatchVariants.Elements.MatchElement","$version":"A"},"defaultValues":{"target":null},"position":{"x":790.0,"y":337.0},"guid":"37b0a819-8911-4751-98df-434efe8936a2","$version":"A","$type":"Bolt.GetMember","$id":"17"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"assign","guid":"06b7cd82-8304-4672-9047-251df2b94196","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"name","guid":"e8f402b9-22c6-4f41-ae3f-d8b3c5afdf20","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"argument_0","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"66f752de-604b-43e7-8363-1648a0dff8c5","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"target","guid":"287db158-397b-4bad-906f-97e5d1a6898d","$type":"Bolt.ValueConnection"},{"position":{"xMin":343.0,"yMin":141.0,"xMax":729.0,"yMax":470.0},"label":"OnMatchSuccess
+      (arg = MatchElement)","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"54ac0a38-d8b9-4864-9da2-2143419f48b3","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: SCR_080_Show_Hide
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":298.3827,"y":63.49863},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-101.0,"y":-81.0},"guid":"ab27bd97-0062-4125-b625-a72e12a87670","$version":"A","$type":"Bolt.OnMouseDown","$id":"9"},{"chainable":false,"member":{"name":"material","parameterTypes":null,"targetType":"UnityEngine.MeshRenderer","targetTypeName":"UnityEngine.MeshRenderer","$version":"A"},"defaultValues":{"target":null,"input":{"$content":0,"$type":"UnityEngine.Material"}},"position":{"x":288.0,"y":-76.0},"guid":"71ef786c-98d3-4b4b-9142-3aff22bf118f","$version":"A","$type":"Bolt.SetMember","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"39d08d52-5873-4314-a498-8549f5db3a57","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2100000, guid: e3c8be6b2c5e42041880bee1b493a010, type: 2}

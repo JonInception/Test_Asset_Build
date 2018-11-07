@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: HideAndSeek_initFlow
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"init
+      flow","summary":null,"pan":{"x":383.8434,"y":-426.1568},"zoom":1.0,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"OnGameRestarted","$type":"System.String"}},"position":{"x":-69.0,"y":-576.0},"guid":"566d484c-11fa-4795-937c-2cd001c863b6","$version":"A","$type":"Bolt.CustomEvent","$id":"9"},{"member":{"name":"Trigger_FlowActivation","parameterTypes":null,"targetType":"GameKit.MiniGameController","targetTypeName":"GameKit.MiniGameController","$version":"A"},"defaultValues":{},"position":{"x":-105.0,"y":-462.0},"guid":"5706c6ff-6f18-4d72-948b-3a4c0adeeec5","$version":"A","$type":"Bolt.GetMember","$id":"11"},{"chainable":false,"member":{"name":"Init","parameterTypes":["UnityEngine.Transform"],"targetType":"GameKit.Utils.RandomizedTransformList","targetTypeName":"GameKit.Utils.RandomizedTransformList","$version":"A"},"defaultValues":{"target":null,"%parent":null},"position":{"x":477.0,"y":-569.0},"guid":"fe84620f-aa5b-4fb6-b245-9e51abb60fd7","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"_hideSpots","$type":"System.String"},"object":null},"position":{"x":220.0,"y":-362.0},"guid":"8c7a085f-adb7-45ef-839f-72a6b87fc86b","$version":"A","$type":"Bolt.GetVariable","$id":"17"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"_gameFlow","$type":"System.String"},"object":null},"position":{"x":217.0,"y":-486.0},"guid":"ddba7b09-abf8-4eba-8c36-04832bf0c39d","$version":"A","$type":"Bolt.GetVariable","$id":"19"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"aff6a7c8-06bb-4bd1-bc85-e1bd09d7366f","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"name","guid":"0ea36a26-156d-4faa-afe6-71753b3c1249","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"%parent","guid":"2fe070ff-bb51-4260-95e7-51085f4f7325","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"target","guid":"b9e2b265-1c3c-47e3-98c8-bc2034114b56","$type":"Bolt.ValueConnection"},{"position":{"xMin":-195.0,"yMin":-664.0,"xMax":199.0,"yMax":-266.0},"label":"On
+      Game Start","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"5caf8b7f-9802-4082-8350-81a2375646a8","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

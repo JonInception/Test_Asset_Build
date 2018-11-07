@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1450144417409588}
+  m_IsPrefabAsset: 1
+--- !u!1 &1450144417409588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4020575301775924}
+  - component: {fileID: 114612074961215844}
+  - component: {fileID: 114543296099662162}
+  - component: {fileID: 114564814663855816}
+  m_Layer: 0
+  m_Name: BookARController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4020575301775924
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450144417409588}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114543296099662162
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450144417409588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79c2f4180cd02ec44afc6e09944561b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LongTouchTime: 3
+  TapTime: 0.1
+--- !u!114 &114564814663855816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450144417409588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d8ea436c2214d1b914fd1eefb0a51d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mixer: {fileID: 24100000, guid: 437e5fcb1635742018c7413d13f9cbaa, type: 2}
+  _transitionTime: 1
+  _masterAudioGroup: {fileID: 24300002, guid: 437e5fcb1635742018c7413d13f9cbaa, type: 2}
+  _bgmAudioGroup: {fileID: 243938668364756084, guid: 437e5fcb1635742018c7413d13f9cbaa,
+    type: 2}
+  _narrationAudioGroup: {fileID: 243140862147883596, guid: 437e5fcb1635742018c7413d13f9cbaa,
+    type: 2}
+  _sfxAudioGroup: {fileID: 243551372650382492, guid: 437e5fcb1635742018c7413d13f9cbaa,
+    type: 2}
+  _helpAudioGroup: {fileID: 243417478184049920, guid: 437e5fcb1635742018c7413d13f9cbaa,
+    type: 2}
+  _bgmSource: {fileID: 0}
+--- !u!114 &114612074961215844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450144417409588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74deb44a39d0d6c44a8b30626bbe9912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _arMenuView: {fileID: 0}
+  _arHintView: {fileID: 0}
+  _audioController: {fileID: 114564814663855816}
+  _progressView: {fileID: 0}
+  _screenControllerContainer: {fileID: 0}
+  _narrationSource: {fileID: 0}
+  _gesturesManager: {fileID: 114543296099662162}
+  _clickTester: {fileID: 0}
+  _scaleCamera: {fileID: 0}
+  _ARToggle: {fileID: 0}
+  _placementMode: 2
+  _placementPoint: 1
+  _defaultIsAR: 0
+  _narrationAudioGroup: {fileID: 243140862147883596, guid: 437e5fcb1635742018c7413d13f9cbaa,
+    type: 2}

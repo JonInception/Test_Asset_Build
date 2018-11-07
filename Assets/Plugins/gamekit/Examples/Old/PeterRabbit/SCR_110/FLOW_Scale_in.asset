@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: FLOW_Scale_in
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":1158.721,"y":56.88145},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Ofset":{"$content":6.0,"$type":"System.Single"},"Speed":{"$content":0.1,"$type":"System.Single"}},"position":{"x":1286.0,"y":24.0},"guid":"d2be7a4d-9aa4-4c93-83c0-1a3cbb2e48a6","$version":"A","$type":"Bolt.SuperUnit","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":966.0,"y":41.0},"guid":"5fabbb75-98e5-4d59-a083-a684bcce097a","$version":"A","$type":"Bolt.Update","$id":"12"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"Update","guid":"1107fa4f-b27c-4386-b97c-219a6ed83106","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 89166433ace14454985119f4662383c8, type: 2}

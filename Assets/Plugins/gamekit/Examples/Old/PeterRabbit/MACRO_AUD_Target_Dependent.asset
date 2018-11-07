@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: MACRO_AUD_Target_Dependent
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"member":{"name":"UnPause","parameterTypes":[],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null},"position":{"x":156.0,"y":-161.0},"guid":"09e37566-5f1e-4199-9a32-5838bbca1bfd","$version":"A","$type":"Bolt.InvokeMember","$id":"9"},{"defaultValues":{},"position":{"x":-57.0,"y":-51.0},"guid":"e3991c8e-ecc7-48d8-a4f3-6ad7b110d755","$version":"A","$type":"Bolt.Branch","$id":"12"},{"member":{"name":"Pause","parameterTypes":[],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null},"position":{"x":153.0,"y":-27.0},"guid":"5fe0faa4-cf16-4487-9e48-088df55961dd","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"defaultValues":{},"position":{"x":-240.0,"y":-144.0},"guid":"b7290097-0f28-4c25-9bab-6959ea343398","$version":"A","$type":"Bolt.Update","$id":"17"},{"member":{"name":"enabled","parameterTypes":null,"targetType":"UnityEngine.MeshRenderer","targetTypeName":"UnityEngine.MeshRenderer","$version":"A"},"defaultValues":{"target":null},"position":{"x":-277.0,"y":39.0},"guid":"9c332609-1821-4717-bf78-2d428fde0082","$version":"A","$type":"Bolt.GetMember","$id":"19"},{"sourceUnit":{"$ref":"12"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"ab099590-cf3c-434f-9c8c-7e08afd7262c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"ifFalse","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"db9b4059-e406-4e83-895b-8e86e397675c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"9b1c0241-0448-4037-a02c-d748b3723dd4","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"condition","guid":"a789d288-a02c-4976-a82a-1bd2492ae79a","$type":"Bolt.ValueConnection"}],"title":"Audio_Target_Dependent","summary":"play
+      Audio when on target , pause when off target","$version":"A"}}'
+    _objectReferences: []

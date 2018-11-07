@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: TimeLine_Start
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-457.0,"y":-207.0},"guid":"4d90a3cb-fb47-47d9-8daa-921b36ed299d","$version":"A","$type":"Bolt.Start","$id":"9"},{"member":{"name":"Play","parameterTypes":["UnityEngine.Playables.PlayableAsset"],"targetType":"UnityEngine.Playables.PlayableDirector","targetTypeName":"UnityEngine.Playables.PlayableDirector","$version":"A"},"defaultValues":{"target":null,"%asset":null},"position":{"x":-55.0,"y":-122.0},"guid":"db72fdbb-f38a-4120-b348-2c8e47c87de4","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"type":"UnityEngine.Timeline.TimelineAsset","value":{"$content":0,"$type":"UnityEngine.Timeline.TimelineAsset"},"defaultValues":{},"position":{"x":-462.0,"y":54.0},"guid":"54c89351-fc94-4dbc-9a58-2402bb97cb50","$version":"A","$type":"Bolt.Literal","$id":"14"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"d657510a-1304-49f8-b91c-58c9fe47be23","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"%asset","guid":"1ccc78f4-e588-46b5-8ea0-a9aeb5b86704","$type":"Bolt.ValueConnection"}],"title":null,"summary":null,"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: dc6994902676a884bab067478909a892, type: 2}
